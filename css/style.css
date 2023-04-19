@@ -139,14 +139,6 @@ li {
   list-style-type: none;
 }
 
-.botonAgr1 {
-  transition: all 2s;
-}
-
-.botonAgr1:hover {
-  transform: translateY(-50px);
-}
-
 /*----------------INDEX---------------*/
 /*-----info general------*/
 .h2izq {

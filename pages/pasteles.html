@@ -18,11 +18,29 @@
 </head>
 <body>
     <header>
-        <li class="amarillo"><a href="./pasteles.html">Pasteles y postres</a></li>
-        <li class="naranja"><a href="./ayuda.html">Ayuda</a></li>
-        <li class="rojo"><a href="../index.html"><img class="imgLogo" src="../img/Mi proyecto.png" alt="logo" height="90"></a></li>
-        <li class="rosa"><a href="./perro.html">Pasteleria para ellos</a></li>
-        <li class="violeta"><a href="./carrito.html">Mi carrito</a></li>
+        <div class="row">
+            <div class="col-12 col-xl-12">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4" id="colorN">
+                        <div class="flexN">
+                    <h5 class="text-white h4"><a class=" p20 amarillo" href="/pages/pasteles.html">Pasteles y postres</a></h5>
+                    <h5 class="text-white h4"><a class=" p20 naranja" href="/pages/ayuda.html">Ayuda</a></h5>
+                    <h5 class="text-white h4"><a class=" p20 rojo logoIndex" href="../index.html"><img class="imgLogo" src="../img/Mi proyecto.png" alt="logo"></a></h5>
+                    <h5 class="text-white h4"><a class=" p20 rosa" href="/pages/perro.html">Pasteleria para ellos</a></h5>
+                    <h5 class="text-white h4"><a class=" p20 violeta" href="/pages/carrito.html">Mi carrito</a></h5>
+                        </div>
+
+                    </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </header>
     <nav>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -46,41 +64,47 @@
     </nav>
     <br>
     <section class="mainPasteles m20">
-
-        <div class="cardProd1 rosaC fz20">
-            <img class="torta1" src="../img/torta1.jpg" alt="torta" width="340px">
-            <p class="p1 m20"><b>Postre Verano</b>, base de masa de galleta dulce sabor limon, cubierta de crema real y mermelada casera, decorada con frutas, frutilla, ciruela, aranadanos y unas sutiles hojas de menta como decoración.*CONTIENE GLUTEN, PRODUCTO VEGANO*</p>
-            <a class="botonAgr1 m20" href="#">Agregar a mi carrito</a>
+        <div class="row">
+            <div class="cardProd1 rosaC fz20 col-xl-12">
+                <img class="torta1 p20" src="../img/torta1.jpg" alt="torta" width="340px">
+                <p class="m20"><b>Postre Verano</b>, base de masa de galleta dulce sabor limon, cubierta de crema real y mermelada casera, decorada con frutas, frutilla, ciruela, aranadanos y unas sutiles hojas de menta como decoración.*CONTIENE GLUTEN, PRODUCTO VEGANO*</p>
+                <a class="botonAgr1 m20" href="#">Agregar a mi carrito</a>
+            </div>
+            <br><br>
+            <div class="cardProd1 naranjaC fz20 col-xl-12">
+                <img class="torta1 p20" src="../img/torta4.jpg" alt="torta" width="340px">
+                <p class="m20"> <b>Torta Carlota de Frutillas con crema</b>, rellena de crema y galletas molidas con pequeños trozos de frutilla. *CONTIENE GLUTEN Y DERIVADOS ANIMAL*</p>
+                <a class="botonAgr1 m20" href="#">Agregar a mi carrito</a>
+            </div>
+            <br><br>
+            <div class="cardProd1 amarilloC fz20 col-xl-12">
+                <img class="torta1 p20" src="../img/torta5.jpg" alt="torta" width="340px">
+                <p class="m20"><b>Torta Helada Tres Sabores</b>, helado de crema americana, frutos del bosque y dulce de leche artesanal decorado con arandamos. *LIBRE DE GLUTEN, CONTIENE DERIVADOS ANIMAL*</p>
+                <a class="botonAgr1 m20" href="#">Agregar a mi carrito</a>
+            </div>
+            <br><br>
+            <div class="cardProd1 violetaC fz20 col-xl-12">
+                <img class="torta1 p20" src="../img/torta6.jpg" alt="torta" width="340px">
+                <p class="m20"><b>Torta Diversión</b>, torta de chocolate rellena con mousse de chocolate, recubierto de cubanitos y confites de chocolate y dulce de leche. *CONTIENE GLUTEN Y DERIVADOS ANIMAL*</p>
+                <a class="botonAgr1 m20" href="#">Agregar a mi carrito</a>
+            </div>
         </div>
-        <br>
-        <div class="cardProd1 naranjaC fz20">
-            <img class="torta1" src="../img/torta4.jpg" alt="torta" width="340px">
-            <p class="p1 m20"> <b>Torta Carlota de Frutillas con crema</b>, rellena de crema y galletas molidas con pequeños trozos de frutilla. *CONTIENE GLUTEN Y DERIVADOS ANIMAL*</p>
-            <a class="botonAgr1 m20" href="#">Agregar a mi carrito</a>
-        </div>
-        <br>
-        <div class="cardProd1 amarilloC fz20">
-            <img class="torta1" src="../img/torta5.jpg" alt="torta" width="340px">
-            <p class="p1 m20"><b>Torta Helada Tres Sabores</b>, helado de crema americana, frutos del bosque y dulce de leche artesanal decorado con arandamos. *LIBRE DE GLUTEN, CONTIENE DERIVADOS ANIMAL*</p>
-            <a class="botonAgr1 m20" href="#">Agregar a mi carrito</a>
-        </div>
-        <br>
-        <div class="cardProd1 violetaC fz20">
-            <img class="torta1" src="../img/torta6.jpg" alt="torta" width="340px">
-            <p class="p1 m20"><b>Torta Diversión</b>, torta de chocolate rellena con mousse de chocolate, recubierto de cubanitos y confites de chocolate y dulce de leche. *CONTIENE GLUTEN Y DERIVADOS ANIMAL*</p>
-            <a class="botonAgr1 m20" href="#">Agregar a mi carrito</a>
-        </div>
-    </section>
+    </section><br><br>
     <footer><!--FOOTER-->
-        <h3 class="redes">Encontranos en redes como:</h3>
-        <a href="#" class="ig"><box-icon type='logo' name='instagram'></box-icon>INSTAGRAM</a>
-        <a href="#" class="tw"><box-icon name='twitter' type='logo' ></box-icon>TWITTER</a>
-        <a href="#" class="face"><box-icon type='logo' name='facebook-circle'></box-icon>FACEBOOK</a>
-        <a href="#" class="ty"><box-icon type='logo' name='youtube'></box-icon>YOUTUBE</a>
-        <h3 class="problema">¿Hay algún problema?</h3>
-        <button class="btnFooter"><a href="./pages/ayuda.html">Ayuda</a></button>
-        <br>
-    </footer>  
+        <div class="row">
+            <div class="col-xl-7">
+                <h3 class="redes">Encontranos en redes como:</h3>
+                <a href="#" class="ig"><box-icon type='logo' name='instagram'></box-icon>INSTAGRAM</a>
+                <a href="#" class="tw"><box-icon name='twitter' type='logo' ></box-icon>TWITTER</a>
+                <a href="#" class="face"><box-icon type='logo' name='facebook-circle'></box-icon>FACEBOOK</a>
+                <a href="#" class="ty"><box-icon type='logo' name='youtube'></box-icon>YOUTUBE</a>
+            </div>
+            <div class="col-xl-5">
+                <h3 class="problema">¿Hay algún problema?</h3>
+        <button class="btnFooter"><a href="/pages/ayuda.html">Ayuda</a></button>
+            </div>
+        </div>
+    </footer> 
 
 
 

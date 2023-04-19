@@ -18,35 +18,60 @@
 </head>
 <body>
     <header>
-        <li class="amarillo"><a href="./pasteles.html">Pasteles y postres</a></li>
-        <li class="naranja"><a href="./ayuda.html">Ayuda</a></li>
-        <li class="rojo"><a href="../index.html"><img class="imgLogo" src="../img/Mi proyecto.png" alt="logo" height="90"></a></li>
-        <li class="rosa"><a href="./perro.html">Pasteleria para ellos</a></li>
-        <li class="violeta"><a href="./carrito.html">Mi carrito</a></li>
+        <div class="row">
+            <div class="col-12 col-xl-12">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4" id="colorN">
+                        <div class="flexN">
+                    <h5 class="text-white h4"><a class=" p20 amarillo" href="/pages/pasteles.html">Pasteles y postres</a></h5>
+                    <h5 class="text-white h4"><a class=" p20 naranja" href="/pages/ayuda.html">Ayuda</a></h5>
+                    <h5 class="text-white h4"><a class=" p20 rojo logoIndex" href="../index.html"><img class="imgLogo" src="../img/Mi proyecto.png" alt="logo"></a></h5>
+                    <h5 class="text-white h4"><a class=" p20 rosa" href="/pages/perro.html">Pasteleria para ellos</a></h5>
+                    <h5 class="text-white h4"><a class=" p20 violeta" href="/pages/carrito.html">Mi carrito</a></h5>
+                        </div>
+
+                    </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <article class="carrito">
-        <div class="pagar1 p20">
+        <div class="row">
+        <div class="pagar1 p20 col-xl-12">
             <img class="torta1" src="../img/torta5.jpg" alt="torta" width="300px">
             <p class="textoPagar1 m20"><b>Torta Helada Tres Sabores</b>, helado de crema americana, frutos del bosque y dulce de leche artesanal decorado con arandamos. *LIBRE DE GLUTEN, CONTIENE DERIVADOS ANIMAL*</p>
             <h1 class="precio1"><b>$000</b></h1> 
         </div>
-        <div class="pagar1 p20">
+        <div class="pagar1 p20 col-xl-12">
             <img class="torta2" src="../img/tortaperro3.jpg" alt="torta" width="300px">
             <p class="textoPagar2 m20"><b>Torta Primavera Canina</b>, relleno de zanahria, manzana, canela, pera, tomate.</p>
             <h1 class="precio2"><b>$000</b></h1>
+        </div>            
         </div>
 
+
         <div class="alinPagar">
-            <div class="regalo">
+            <div class="row">
+            <div class="regalo col-xl-6">
                 <form action="#"><input type="radio" name="regalo" value="regalo"> Para regalo</form>
                 <label class="laberViol" for="t">¿Querés que escribamos algo? No completar en caso de NO querer.</label><br>
                 <textarea name="t" cols="30" rows="10"></textarea><br>
             </div>
-            <img class="imgPagar m20 p20" src="../img/perroComeTorta.jpeg" alt="perroComeTorta" width="300px">
-            <div class="irPagar">
+            <div class="col-xl-3">
+                <img class="imgPagar m20 p20 " src="../img/perroComeTorta.jpeg" alt="perroComeTorta" width="300px">                
+            </div>
+            <div class="irPagar col-xl-3">
                 <h3>Sub total: $000</h3>
-            </div>    
+            </div> 
+            </div>
         </div>
 
         
@@ -54,14 +79,20 @@
 
     
     <footer><!--FOOTER-->
-        <h3 class="redes">Encontranos en redes como:</h3>
-        <a href="#" class="ig"><box-icon type='logo' name='instagram'></box-icon>INSTAGRAM</a>
-        <a href="#" class="tw"><box-icon name='twitter' type='logo' ></box-icon>TWITTER</a>
-        <a href="#" class="face"><box-icon type='logo' name='facebook-circle'></box-icon>FACEBOOK</a>
-        <a href="#" class="ty"><box-icon type='logo' name='youtube'></box-icon>YOUTUBE</a>
-        <h3 class="problema">¿Hay algún problema?</h3>
-        <button class="btnFooter"><a href="./pages/ayuda.html">Ayuda</a></button>
-    </footer>  
+        <div class="row">
+            <div class="col-xl-7">
+                <h3 class="redes">Encontranos en redes como:</h3>
+                <a href="#" class="ig"><box-icon type='logo' name='instagram'></box-icon>INSTAGRAM</a>
+                <a href="#" class="tw"><box-icon name='twitter' type='logo' ></box-icon>TWITTER</a>
+                <a href="#" class="face"><box-icon type='logo' name='facebook-circle'></box-icon>FACEBOOK</a>
+                <a href="#" class="ty"><box-icon type='logo' name='youtube'></box-icon>YOUTUBE</a>
+            </div>
+            <div class="col-xl-5">
+                <h3 class="problema">¿Hay algún problema?</h3>
+        <button class="btnFooter"><a href="/pages/ayuda.html">Ayuda</a></button>
+            </div>
+        </div>
+    </footer> 
 <br>
 
 <!--SCRIPT BOXICONS-->

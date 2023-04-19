@@ -18,16 +18,34 @@
 </head>
 <body>
     <header>
-        <li class="amarillo"><a href="./pasteles.html">Pasteles y postres</a></li>
-        <li class="naranja"><a href="./ayuda.html">Ayuda</a></li>
-        <li class="rojo"><a href="../index.html"><img class="imgLogo" src="../img/Mi proyecto.png" alt="logo" height="90"></a></li>
-        <li class="rosa"><a href="./perro.html">Pasteleria para ellos</a></li>
-        <li class="violeta"><a href="./carrito.html">Mi carrito</a></li>
+        <div class="row">
+            <div class="col-12 col-xl-12">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4" id="colorN">
+                        <div class="flexN">
+                    <h5 class="text-white h4"><a class=" p20 amarillo" href="/pages/pasteles.html">Pasteles y postres</a></h5>
+                    <h5 class="text-white h4"><a class=" p20 naranja" href="/pages/ayuda.html">Ayuda</a></h5>
+                    <h5 class="text-white h4"><a class=" p20 rojo logoIndex" href="../index.html"><img class="imgLogo" src="../img/Mi proyecto.png" alt="logo"></a></h5>
+                    <h5 class="text-white h4"><a class=" p20 rosa" href="/pages/perro.html">Pasteleria para ellos</a></h5>
+                    <h5 class="text-white h4"><a class=" p20 violeta" href="/pages/carrito.html">Mi carrito</a></h5>
+                        </div>
+
+                    </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </header><br>
 
 
-<figure>
-    <div class="formulario">
+<figure> <div class="row">
+    <div class="formulario col-xl-6">
         <h2 class="tAyudamos">Contactanos</h2>
             <form class="formAyuda m20" action="#">
                 <input type="text" placeholder="Escribí tu nombre"><br><br>
@@ -39,7 +57,7 @@
             </form>
     </div>
 
-        <div class="preguntas">
+        <div class="preguntas col-xl-6">
             <h2 class="p-f">Preguntas Frecuentes</h2> 
             <ol class="preg">
                 <li>
@@ -66,6 +84,8 @@
                 </li>
             </ol>            
         </div>
+</div>
+    
 </figure>
 <br><br>
 
@@ -76,15 +96,21 @@
 </div>
 
 <br><br>
-    <footer><!--FOOTER-->
-        <h3 class="redes">Encontranos en redes como:</h3>
-        <a href="#" class="ig"><box-icon type='logo' name='instagram'></box-icon>INSTAGRAM</a>
-        <a href="#" class="tw"><box-icon name='twitter' type='logo' ></box-icon>TWITTER</a>
-        <a href="#" class="face"><box-icon type='logo' name='facebook-circle'></box-icon>FACEBOOK</a>
-        <a href="#" class="ty"><box-icon type='logo' name='youtube'></box-icon>YOUTUBE</a>
-        <h3 class="problema">¿Hay algún problema?</h3>
-        <button class="btnFooter"><a href="./pages/ayuda.html">Ayuda</a></button>
-    </footer>  
+<footer><!--FOOTER-->
+    <div class="row">
+        <div class="col-xl-7">
+            <h3 class="redes">Encontranos en redes como:</h3>
+            <a href="#" class="ig"><box-icon type='logo' name='instagram'></box-icon>INSTAGRAM</a>
+            <a href="#" class="tw"><box-icon name='twitter' type='logo' ></box-icon>TWITTER</a>
+            <a href="#" class="face"><box-icon type='logo' name='facebook-circle'></box-icon>FACEBOOK</a>
+            <a href="#" class="ty"><box-icon type='logo' name='youtube'></box-icon>YOUTUBE</a>
+        </div>
+        <div class="col-xl-5">
+            <h3 class="problema">¿Hay algún problema?</h3>
+    <button class="btnFooter"><a href="/pages/ayuda.html">Ayuda</a></button>
+        </div>
+    </div>
+</footer> 
 <br>
 
 <!--SCRIPT BOXICONS-->

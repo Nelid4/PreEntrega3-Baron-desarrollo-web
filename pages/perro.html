@@ -21,11 +21,29 @@
 
 <body>
     <header>
-        <li class="amarillo"><a href="./pasteles.html">Pasteles y postres</a></li>
-        <li class="naranja"><a href="./ayuda.html">Ayuda</a></li>
-        <li class="rojo"><a href="../index.html"><img class="imgLogo" src="../img/Mi proyecto.png" alt="logo" height="90"></a></li>
-        <li class="rosa"><a href="./perro.html">Pasteleria para ellos</a></li>
-        <li class="violeta"><a href="./carrito.html">Mi carrito</a></li>
+        <div class="row">
+            <div class="col-12 col-xl-12">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4" id="colorN">
+                        <div class="flexN">
+                    <h5 class="text-white h4"><a class=" p20 amarillo" href="/pages/pasteles.html">Pasteles y postres</a></h5>
+                    <h5 class="text-white h4"><a class=" p20 naranja" href="/pages/ayuda.html">Ayuda</a></h5>
+                    <h5 class="text-white h4"><a class=" p20 rojo logoIndex" href="../index.html"><img class="imgLogo" src="../img/Mi proyecto.png" alt="logo"></a></h5>
+                    <h5 class="text-white h4"><a class=" p20 rosa" href="/pages/perro.html">Pasteleria para ellos</a></h5>
+                    <h5 class="text-white h4"><a class=" p20 violeta" href="/pages/carrito.html">Mi carrito</a></h5>
+                        </div>
+
+                    </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </header>
     <br>
     <nav class="navP">
@@ -35,7 +53,8 @@
             cualquier duda, consulta.</h4>
     </nav>
     <aside>
-        <div class="card amarilloC bNaranja cardP1" style="width: 18rem;">
+        <div class="row aling">
+        <div class="card amarilloC bNaranja cardP1 col-xl-4 m50" style="width: 18rem;">
             <img src="../img/tortaperro1.jpg" class="card-img-top" alt="torta de perro">
             <div class="card-body">
                 <h5 class="card-title"><b>Torta de carne</b></h5>
@@ -46,7 +65,7 @@
             </div>
         </div>
 
-        <div class="card violetaC bVioleta cardP2" style="width: 18rem;">
+        <div class="card violetaC bVioleta cardP2 col-xl-4 m50" style="width: 18rem;">
             <img src="../img/tortaperro4.jpg" class="card-img-top" alt="torta de perro">
             <div class="card-body">
                 <h5 class="card-title"><b>Torta de carne sin colorante</b></h5>
@@ -56,7 +75,7 @@
             </div>
         </div>
 
-        <div class="card naranjaC bRojo cardP3" style="width: 18rem;">
+        <div class="card naranjaC bRojo cardP3 col-xl-4 m50" style="width: 18rem;">
             <img src="../img/galletaPerro.jpg" class="card-img-top" alt="galleta de perro">
             <div class="card-body">
                 <h5 class="card-title"><b>Lata de Galletas</b></h5>
@@ -66,6 +85,7 @@
                 <a href="#" class="btn btn-primary botonPerro">Agregar a mi carrito</a>
             </div>
         </div>
+        </div>
     </aside>
 
 
@@ -73,14 +93,20 @@
 
     <br><br>
     <footer><!--FOOTER-->
-        <h3 class="redes">Encontranos en redes como:</h3>
-        <a href="#" class="ig"><box-icon type='logo' name='instagram'></box-icon>INSTAGRAM</a>
-        <a href="#" class="tw"><box-icon name='twitter' type='logo'></box-icon>TWITTER</a>
-        <a href="#" class="face"><box-icon type='logo' name='facebook-circle'></box-icon>FACEBOOK</a>
-        <a href="#" class="ty"><box-icon type='logo' name='youtube'></box-icon>YOUTUBE</a>
-        <h3 class="problema">¿Hay algún problema?</h3>
-        <button class="btnFooter"><a href="./pages/ayuda.html">Ayuda</a></button>
-    </footer>
+        <div class="row">
+            <div class="col-xl-7">
+                <h3 class="redes">Encontranos en redes como:</h3>
+                <a href="#" class="ig"><box-icon type='logo' name='instagram'></box-icon>INSTAGRAM</a>
+                <a href="#" class="tw"><box-icon name='twitter' type='logo' ></box-icon>TWITTER</a>
+                <a href="#" class="face"><box-icon type='logo' name='facebook-circle'></box-icon>FACEBOOK</a>
+                <a href="#" class="ty"><box-icon type='logo' name='youtube'></box-icon>YOUTUBE</a>
+            </div>
+            <div class="col-xl-5">
+                <h3 class="problema">¿Hay algún problema?</h3>
+        <button class="btnFooter"><a href="/pages/ayuda.html">Ayuda</a></button>
+            </div>
+        </div>
+    </footer> 
     <br>
 
     <!--SCRIPT BOXICONS-->

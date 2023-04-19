@@ -19,11 +19,27 @@
 <body>
     <div class="body">
         <header>
-            <li class="amarillo"><a href="./pages/pasteles.html">Pasteles y postres</a></li>
-            <li class="naranja"><a href="./pages/ayuda.html">Ayuda</a></li>
-            <li class="rojo logoIndex"><a href="index.html"><img class="imgLogo" src="./img/Mi proyecto.png" alt="logo" ></a></li>
-            <li class="rosa"><a href="./pages/perro.html">Pasteleria para ellos</a></li>
-            <li class="violeta"><a href="./pages/carrito.html">Mi carrito</a></li>
+            <div class="row">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-dark p-4" id="colorN">
+                            <div class="flexN col-xl-12">
+                        <h5 class="text-white h4"><a class=" p20 amarillo" href="./pages/pasteles.html">Pasteles y postres</a></h5>
+                        <h5 class="text-white h4"><a class=" p20 naranja" href="./pages/ayuda.html">Ayuda</a></h5>
+                        <h5 class="text-white h4"><a class=" p20 rojo logoIndex" href="index.html"><img class="imgLogo" src="./img/Mi proyecto.png" alt="logo"></a></h5>
+                        <h5 class="text-white h4"><a class=" p20 rosa" href="./pages/perro.html">Pasteleria para ellos</a></h5>
+                        <h5 class="text-white h4"><a class=" p20 violeta" href="./pages/carrito.html">Mi carrito</a></h5>
+                            </div>
+
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-dark bg-dark">
+                        <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        </div>
+                    </nav>
+            </div>
         </header>
         <nav><!--CARRUSEL-->
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -49,28 +65,45 @@
             </div>
         </nav>
         <br>
-        <main class="mainCards"><!--CARDS-->
-            <div class="card flexCard card1">
-                <img src="./img/torta3.jpeg" alt="torta" height="290px" width="290px" class="p10 imgCard1">
-                <h2 class="p10">Tortas tematizadas</h2>
-                <a href="/pages/pasteles.html" class="verMas p10">VER MÁS</a>
+        <main class="mainCards">
+<!--CARDS-->
+<div class="row flex-just">
+    <div class="col-xl-3">
+        <div class="card flexCard card1">
+            <img src="./img/torta3.jpeg" alt="torta" height="290px" width="290px" class="p10 imgCard1">
+            <h2 class="p10">Tortas tematizadas</h2>
+            <a href="/pages/pasteles.html" class="verMas p10">VER MÁS</a>
+        </div>
+    </div>
+    <div class="col-xl-3">
+        <div class="card flexCard card2">
+            <img src="./img/tortaperro2.jpg" alt="torta" height="290px" width="270px" class="p10 imgCard2">
+            <h2 class="p10">Pasteles caninos</h2>
+            <a href="/pages/perro.html" class="verMas p10">VER MÁS</a>
+        </div>
+    </div>
+    <div class="col-xl-3">
+        <div class="card flexCard card3">
+            <img src="./img/torta2.jpg" alt="torta" height="290px" width="290px" class="p10 imgCard3">
+            <h2 class="p10">Postres clásicos</h2>
+            <a href="/pages/pasteles.html" class="verMas p10">VER MÁS</a>
+        </div>
+    </div>
+    <div class="col-xl-3">
+        <div class="card flexCard card4">
+            <img src="./img/tortaperro3.jpg" alt="torta" height="250px" width="300px" class="p10 imgCard4">
+            <h2 class="p10">Tortas para perros</h2>
+            <a href="/pages/perro.html" class="verMas p10">VER MÁS</a>
             </div> 
-            <div class="card flexCard card2">
-                <img src="./img/tortaperro2.jpg" alt="torta" height="290px" width="270px" class="p10 imgCard2">
-                <h2 class="p10">Pasteles caninos</h2>
-                <a href="/pages/perro.html" class="verMas p10">VER MÁS</a>
+    </div>
+</div>
+            <br>
+            <div class="row">
+                <div class="col-xl-12">
+                    <p class="pCards"><b>Veras que en cada publicación se especifica si es apto para consumo animal.</b></p>
+                </div>
             </div>
-            <div class="card flexCard card3">
-                <img src="./img/torta2.jpg" alt="torta" height="290px" width="290px" class="p10 imgCard3">
-                <h2 class="p10">Postres clásicos</h2>
-                <a href="/pages/pasteles.html" class="verMas p10">VER MÁS</a>
-            </div> 
-            <div class="card flexCard card4">
-                <img src="./img/tortaperro3.jpg" alt="torta" height="250px" width="300px" class="p10 imgCard4">
-                <h2 class="p10">Tortas para perros</h2>
-                <a href="/pages/perro.html" class="verMas p10">VER MÁS</a>
-            </div> 
-            <p class="pCards"><b>Veras que en cada publicación se especifica si es apto para consumo animal.</b></p>
+            
         </main>
         <br><br>
             <main><!--INFO GENERAL-->
@@ -84,8 +117,13 @@
                     <p class="pMain">Todos los productos se elaboran de manera artesanal, sin levaduras ni aditivos químicos, diseñado para perros de todas las edades. Elegimos trabajar junto a un equipo veterinario para crear una receta que incluya calcio y vitaminas para tu peludo. Nuestra cocina cuenta con un área para la preparación canina y otra para la pastelería convencional.</p>
                 </div>
 
-                    <iframe class="videoInfo videoMobile m20"  src="https://www.youtube.com/embed/5lNv8iMp0UY?start=55" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <img class="perroTorta perroMobile m20" src="./img/perroInfo.jpg" alt="perro y torta" height="330px" width="330px">
+                <div class="row">
+                    <div class="col-xl-6 col-12"><iframe class="videoInfo m20"  src="https://www.youtube.com/embed/5lNv8iMp0UY?start=55" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div>
+                <div class="col-xl-6 col-12 p20">
+                    <img class="perroTorta m20" src="./img/perroInfo.jpg" alt="perro y torta" height="330px" width="330px">
+                </div>
+                </div>    
+                    
 
                 
 
@@ -95,22 +133,32 @@
                 </div>
                 <img class="flyerMain" src="./img/flyer (4).png" alt="flyer4" width="100%">
 
-                <h4 class="tienda p20">Nuestro local cuenta con un área diseñada exclusivamente para que vos y tu mascota compartan una tarde increíble. En ella vas a encontrar un espacio de recreación canina para que tu peludo comparta con otros, además de juegos, puestos de hidratación y comida, un lugar donde descansar y más. 
-                <br> Contamos también con un edificio inclusivo, esto quiere decir que, tenemos rampas y baños preparados para usar. Nuestros horarios son de <u>15hs a 20hs de miércoles a domingos</u>, trabajamos feriados y con mal clima.</h4>
+                <div class="row">
+                    <div class="col-xl-6"><h4 class="tienda p20">Nuestro local cuenta con un área diseñada exclusivamente para que vos y tu mascota compartan una tarde increíble. En ella vas a encontrar un espacio de recreación canina para que tu peludo comparta con otros, además de juegos, puestos de hidratación y comida, un lugar donde descansar y más. 
+                        <br> Contamos también con un edificio inclusivo, esto quiere decir que, tenemos rampas y baños preparados para usar. Nuestros horarios son de <u>15hs a 20hs de miércoles a domingos</u>, trabajamos feriados y con mal clima.</h4></div>
+                    <div class="col-xl-6"><img class="perrroCafe m20" src="./img/perro_cafe.jpg" alt="perro y chica en cafetería" height="330px" width="330px"></div>
+                </div>
                 
-                <img class="perrroCafe m20" src="./img/perro_cafe.jpg" alt="perro y chica en cafetería" height="330px" width="330px">
+                
+                
 
             </main> 
 
             <br><br>
             <footer><!--FOOTER-->
-                <h3 class="redes">Encontranos en redes como:</h3>
-                <a href="#" class="ig"><box-icon type='logo' name='instagram'></box-icon>INSTAGRAM</a>
-                <a href="#" class="tw"><box-icon name='twitter' type='logo' ></box-icon>TWITTER</a>
-                <a href="#" class="face"><box-icon type='logo' name='facebook-circle'></box-icon>FACEBOOK</a>
-                <a href="#" class="ty"><box-icon type='logo' name='youtube'></box-icon>YOUTUBE</a>
-                <h3 class="problema">¿Hay algún problema?</h3>
+                <div class="row">
+                    <div class="col-xl-7">
+                        <h3 class="redes">Encontranos en redes como:</h3>
+                        <a href="#" class="ig"><box-icon type='logo' name='instagram'></box-icon>INSTAGRAM</a>
+                        <a href="#" class="tw"><box-icon name='twitter' type='logo' ></box-icon>TWITTER</a>
+                        <a href="#" class="face"><box-icon type='logo' name='facebook-circle'></box-icon>FACEBOOK</a>
+                        <a href="#" class="ty"><box-icon type='logo' name='youtube'></box-icon>YOUTUBE</a>
+                    </div>
+                    <div class="col-xl-5">
+                        <h3 class="problema">¿Hay algún problema?</h3>
                 <button class="btnFooter"><a href="/pages/ayuda.html">Ayuda</a></button>
+                    </div>
+                </div>
             </footer>  
         <br>
     </div>

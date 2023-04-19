@@ -1,0 +1,36 @@
+/*---header---*/
+.amarillo {
+    background-color: $amarillo;
+    display: inline-block;
+    width: 100%;
+}
+.naranja {
+    background-color: $naranja;
+    display: inline-block;
+    width: 100%;
+}
+.rojo {
+    background-color: $naranja-rojo;
+    border-radius: 25px;
+    display: inline-block;
+    width: 100%;
+}
+.rosa {
+    background-color: $rosa;
+    display: inline-block;
+    width: 100%;
+}
+.violeta {
+    background-color: $violeta;
+    display: inline-block;
+    width: 100%;
+}
+.imgLogo {
+    height: 90px;
+}
+#colorN{
+    background-color: $bg-header !important;
+}
+.bg-dark{
+    background-color: $bg-header !important;
+}

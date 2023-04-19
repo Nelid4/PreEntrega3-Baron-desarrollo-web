@@ -1,152 +1,34 @@
-/*--------------GENERAL---------------*/
-.p20 {
-padding: 20px;
-}
-
-.p10 {
-padding: 10px;
-}
-
-.m20 {
-margin: 20px;
-}
-
-.m50{
-    margin: 50px;
-}
-
-.aling{
-    display: flex;
-    justify-content: center;
-}
-
-body {
-font-family: "Manrope", sans-serif;
-background-image: url(../img/fondoo.jpg);
-margin: 0%;
-}
-
-a {
-text-decoration: none;
-color: black;
-}
-
-li {
-list-style-type: none;
-}
-
-/*----DESKTOP*/
-/*---header---*/
-.amarillo {
-    background-color: #ffab03;
-    display: inline-block;
-    width: 100%;
-}
-.naranja {
-    background-color: #fc7f03;
-    display: inline-block;
-    width: 100%;
-}
-.rojo {
-    background-color: #fc3903;
-    border-radius: 25px;
-    display: inline-block;
-    width: 100%;
-}
-.rosa {
-    background-color: #d1024e;
-    display: inline-block;
-    width: 100%;
-}
-.violeta {
-    background-color: #a6026c;
-    display: inline-block;
-    width: 100%;
-}
-.imgLogo {
-    height: 90px;
-}
-#colorN{
-    background-color: #ffcc85bc !important;
-}
-.bg-dark{
-    background-color: #ffcc85bc !important;
-}
-
-
-/*-----footer------*/
-.btnFooter {
-    padding: 5px 120px;
-    border-radius: 10px;
-    font-size: 25px;
-}
-footer {
-    background-color: rgba(252, 127, 3, 0.231372549);
-}
-.problema {
-    text-align: center;
-    background-color: rgba(252, 127, 3, 0.231372549);
-}
+/*------Partials-----*/
+@import "variables";
+@import "header";
+@import "footer";
+@import "cardsIndex";
+@import "general";
+@import "transiciones";
 
 /*----------------INDEX---------------*/
-/*----cards-----*/
-.card1 {
-    background-color: #a6026c;
-    width: 300px;
-}
-.card2 {
-    background-color: #fc7f03;
-    width: 300px;
-}
-.card3 {
-    background-color: #d1024e;
-    width: 300px;
-}
-.card4 {
-    background-color: #ffab03;
-    width: 300px;
-}
-.verMas {
-    background-color: #fc3903;
-    border: #fc3903;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 13px;
-    margin: 10px;
-    text-align: center;
-}
-.pCards {
-    border: 10px double #fc3903;
-    background: rgb(255, 223, 168);
-    font-size: 22px;
-    color: #fc3903;
-    text-align: center;
-}
-.flex-just{
-    display: flex;
-    justify-content: space-around;
-}
+
 
 /*-----info general------*/
 .h2izq {
     display: inline-block;
-    background-color: #fc3903;
+    background-color: $naranja-rojo;
     padding-right: 200px;
-    border: 10px solid #fc3903;
-    border-end-end-radius: 30px;
-    border-top-right-radius: 30px;
+    border: $px10 solid $naranja-rojo;
+    border-end-end-radius: $px30;
+    border-top-right-radius: $px30;
     position: relative;
     top: 22px;
 }
 .pMain {
     padding: 19px;
-    border: 2px solid #fc3903;
+    border: 2px solid $naranja-rojo;
 }
 .h2der {
     display: inline-block;
-    background-color: #fc3903;
-    border: 10px solid #fc3903;
-    border-top-left-radius: 30px;
+    background-color: $naranja-rojo;
+    border: $px10 solid $naranja-rojo;
+    border-top-left-radius: $px30;
     border-end-start-radius: 27px;
     display: flex;
     flex-direction: row-reverse;
@@ -172,10 +54,10 @@ footer {
 /*--------------------PASTELES------------------*/
 /*--cards horizontaes---*/
 .botonAgr1 {
-    background-color: #ffab03;
-    border: #ffab03;
-    padding: 10px;
-    font-size: 20px;
+    background-color: $amarillo;
+    border: $amarillo;
+    padding: $px10;
+    font-size: $px20;
     border-radius: 150px;
     text-decoration: none;
     text-align: center;
@@ -188,16 +70,16 @@ footer {
 }
 
 .rosaC {
-    border: 5px solid #d1024e;
+    border: $px5 solid $rosa;
 }
 .naranjaC {
-    border: 5px solid #fc3903;
+    border: $px5 solid $naranja;
 }
 .amarilloC {
-    border: 5px solid #fc7f03;
+    border: $px5 solid $amarillo;
 }
 .violetaC {
-    border: 5px solid #a6026c;
+    border: $px5 solid $violeta;
 }
 .fz20 {
     font-size: 22px;
@@ -205,35 +87,35 @@ footer {
 /*-----------------PERRO-----------------*/
 /*---card perro----*/
 .botonPerro {
-    background-color: #d1024e;
-    border: #d1024e;
-    font-size: 20px;
+    background-color: $rosa;
+    border: $rosa;
+    font-size: $px20;
     border-radius: 4px;
     padding: 22px;
-    color: white;
+    color: $blanco;
 }
 .bNaranja {
-    background-color: #fc7f03;
+    background-color: $amarillo;
 }
 .bVioleta {
-    background-color: #a6026c;
+    background-color: $violeta;
 }
 .bRojo {
-    background-color: #fc3903;
+    background-color: $naranja-rojo;
 }
 .navP {
-    border: 7px dotted #d1024e;
+    border: 7px dotted $rosa;
     padding: 17px;
-    color: #d1024e;
+    color: $rosa;
 }
 
 /*--------------CARRITO-------------------*/
 /*----ir a pagar---*/
 .pagar1 {
-    border: 5px solid #a6026c;
+    border: $px5 solid $violeta;
     display: flex;
     margin: 28px 12px -2px 2px;
-    background: blanchedalmond;
+    background: $bg-pagar1;
     align-items: baseline;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -241,19 +123,19 @@ footer {
 .regalo {
     text-align: center;
     display: inline-block;
-    border: 3px solid #a6026c;
-    padding: 10px;
-    border-end-end-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border: 3px solid $violeta;
+    padding: $px10;
+    border-end-end-radius: $px30;
+    border-bottom-left-radius: $px30;
 }
 .irPagar {
     text-align: center;
     display: inline-block;
-    border: 3px solid #a6026c;
-    padding: 10px;
-    border-end-end-radius: 30px;
-    border-bottom-left-radius: 30px;
-    font-size: 20px;
+    border: 3px solid $violeta;
+    padding: $px10;
+    border-end-end-radius: $px30;
+    border-bottom-left-radius: $px30;
+    font-size: $px20;
 
 }
 .alinPagar {
@@ -263,19 +145,19 @@ footer {
 /*---------------AYUDA-------------*/
 .tAyudamos {
     display: inline-block;
-    background-color: #fc7f03;
+    background-color: $naranja;
     padding-right: 200px;
-    border: 7px solid #fc7f03;
-    border-end-end-radius: 30px;
-    border-top-right-radius: 30px;
+    border: 7px solid $naranja;
+    border-end-end-radius: $px30;
+    border-top-right-radius: $px30;
 }
 .p-f {
     display: inline-block;
-    background-color: #fc7f03;
+    background-color: $naranja;
     padding-left: 200px;
-    border: 7px solid #fc7f03;
-    border-top-left-radius: 30px;
-    border-end-start-radius: 30px;
+    border: 7px solid $naranja;
+    border-top-left-radius: $px30;
+    border-end-start-radius: $px30;
     position: relative;
     left: 91px;
 }

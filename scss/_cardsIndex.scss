@@ -1,0 +1,37 @@
+/*----cards-----*/
+.card1 {
+    background-color: $violeta;
+    width: $px300;
+}
+.card2 {
+    background-color: $naranja;
+    width: $px300;
+}
+.card3 {
+    background-color: $rosa;
+    width: $px300;
+}
+.card4 {
+    background-color: $amarillo;
+    width: $px300;
+}
+.verMas {
+    background-color: $naranja-rojo;
+    border: $naranja-rojo;
+    padding: $px10;
+    font-size: $px20;
+    border-radius: 13px;
+    margin: $px10;
+    text-align: center;
+}
+.pCards {
+    border: $px10 double $naranja-rojo;
+    background: $bg-pCards;
+    font-size: 22px;
+    color: $naranja-rojo;
+    text-align: center;
+}
+.flex-just{
+    display: flex;
+    justify-content: space-around;
+}

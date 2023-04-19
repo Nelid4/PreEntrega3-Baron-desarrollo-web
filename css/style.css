@@ -1,42 +1,4 @@
-/*--------------GENERAL---------------*/
-.p20 {
-  padding: 20px;
-}
-
-.p10 {
-  padding: 10px;
-}
-
-.m20 {
-  margin: 20px;
-}
-
-.m50 {
-  margin: 50px;
-}
-
-.aling {
-  display: flex;
-  justify-content: center;
-}
-
-body {
-  font-family: "Manrope", sans-serif;
-  background-image: url(../img/fondoo.jpg);
-  margin: 0%;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-li {
-  list-style-type: none;
-}
-
-/*----DESKTOP*/
-/*---header---*/
+/*------Partials-----*/ /*---header---*/
 .amarillo {
   background-color: #ffab03;
   display: inline-block;
@@ -88,7 +50,7 @@ li {
 }
 
 footer {
-  background-color: rgba(252, 127, 3, 0.231372549);
+  background-image: linear-gradient(to right, white, rgba(252, 127, 3, 0.231372549));
 }
 
 .problema {
@@ -96,7 +58,6 @@ footer {
   background-color: rgba(252, 127, 3, 0.231372549);
 }
 
-/*----------------INDEX---------------*/
 /*----cards-----*/
 .card1 {
   background-color: #a6026c;
@@ -141,6 +102,52 @@ footer {
   justify-content: space-around;
 }
 
+/*----GENERAL------*/
+.p20 {
+  padding: 20px;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+.m20 {
+  margin: 20px;
+}
+
+.m50 {
+  margin: 50px;
+}
+
+.aling {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-image: url(../img/fondoo.jpg);
+  margin: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.botonAgr1 {
+  transition: all 2s;
+}
+
+.botonAgr1:hover {
+  transform: translateY(-50px);
+}
+
+/*----------------INDEX---------------*/
 /*-----info general------*/
 .h2izq {
   display: inline-block;
@@ -213,11 +220,11 @@ footer {
 }
 
 .naranjaC {
-  border: 5px solid #fc3903;
+  border: 5px solid #fc7f03;
 }
 
 .amarilloC {
-  border: 5px solid #fc7f03;
+  border: 5px solid #ffab03;
 }
 
 .violetaC {
@@ -240,7 +247,7 @@ footer {
 }
 
 .bNaranja {
-  background-color: #fc7f03;
+  background-color: #ffab03;
 }
 
 .bVioleta {

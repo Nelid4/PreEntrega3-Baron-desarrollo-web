@@ -1,0 +1,13 @@
+/*-----footer------*/
+.btnFooter {
+    padding: $px5 120px;
+    border-radius: $px10;
+    font-size: 25px;
+}
+footer {
+    background-image: linear-gradient(to right, $blanco,$bg-footer);
+}
+.problema {
+    text-align: center;
+    background-color: $bg-footer;
+}

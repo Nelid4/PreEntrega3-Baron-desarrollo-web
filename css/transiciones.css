@@ -1,0 +1,9 @@
+.botonAgr1 {
+  transition: all 2s;
+}
+
+.botonAgr1:hover {
+  transform: translateY(-50px);
+}
+
+/*# sourceMappingURL=transiciones.css.map */

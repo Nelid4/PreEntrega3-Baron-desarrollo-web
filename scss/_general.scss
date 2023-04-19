@@ -1,0 +1,36 @@
+/*----GENERAL------*/
+.p20 {
+    padding: 20px;
+    }
+    
+    .p10 {
+    padding: 10px;
+    }
+    
+    .m20 {
+    margin: 20px;
+    }
+    
+    .m50{
+        margin: 50px;
+    }
+    
+    .aling{
+        display: flex;
+        justify-content: center;
+    }
+    
+    body {
+    font-family:$font-body;
+    background-image: url(../img/fondoo.jpg);
+    margin: 0%;
+    }
+    
+    a {
+    text-decoration: none;
+    color: $negro;
+    }
+    
+    li {
+    list-style-type: none;
+    }
